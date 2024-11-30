@@ -1,0 +1,100 @@
+[
+  {
+    "enabled": false,
+    "installDate": 1706714725872,
+    "name": "AccessContrib - 1. Générique",
+    "sections": [
+      {
+        "code": "/* Style générique d'affichage des noms d'éléments */\ntable::after,\nth::after,\ncaption::after,\nul::after,\nol::after,\nli::after,\nblockquote::after,\na[href]::after,\nh1::after,\nh2::after,\nh3::after,\nh4::after,\nh5::after,\nh6::after,\np::after,\nimg::after {\n    margin: 5px;\n    padding: 2px;\n    background-color: #ffe94a;\n    border: 2px solid #000000;\n    color: #000000;\n    font-family: \"Courier\", \"Courier New\", monospace;\n    font-weight: bold;\n}\n"
+      }
+    ],
+    "updateDate": 1706717130000,
+    "_id": "c6f57f74-7cd7-4783-a4e6-409a37ad7197",
+    "_rev": 1709828326840,
+    "id": 15
+  },
+  {
+    "enabled": false,
+    "installDate": 1706715142065,
+    "name": "AccessContrib - 2. Paragraphes",
+    "sections": [
+      {
+        "code": "p {\n    outline: 4px dotted #c40000;\n}\np::after {\n    content: \"p\";\n}"
+      }
+    ],
+    "updateDate": 1706717161935,
+    "_id": "6a17031e-4552-4f81-98b2-cad3b8cfd488",
+    "_rev": 1709828233580,
+    "id": 21
+  },
+  {
+    "enabled": false,
+    "installDate": 1706714984666,
+    "name": "AccessContrib - 3. Titres",
+    "sections": [
+      {
+        "code": "h1 {\n    outline: 4px dashed #c40000;\n}\nh1::after {\n    content: \"h1\";\n}\n\nh2 {\n    outline: 4px dashed #603e00;\n}\nh2::after {\n    content: \"h2\";\n}\n\nh3 {\n    outline: 4px dashed #006017;\n}\nh3::after {\n    content: \"h3\";\n}\n\nh4 {\n    outline: 4px dashed #004773;\n}\nh4::after {\n    content: \"h4\";\n}\n\nh5 {\n    outline: 4px dashed #3f0086;\n}\nh5::after {\n    content: \"h5\";\n}\n\nh6 {\n    outline: 4px dashed #5d6000;\n}\nh6::after {\n    content: \"h6\";\n}\n"
+      }
+    ],
+    "updateDate": 1706717174251,
+    "_id": "d20d7fda-12f3-4086-8c58-1151b318beb1",
+    "_rev": 1709828259076,
+    "id": 20
+  },
+  {
+    "enabled": false,
+    "installDate": 1706714882881,
+    "name": "AccessContrib - 4. Citations",
+    "sections": [
+      {
+        "code": "blockquote {\n    border: 4px dotted #99249F;\n}\nblockquote::after {\n    content: \"blockquote\";\n}"
+      }
+    ],
+    "updateDate": 1706717189000,
+    "_id": "a28cd899-1605-4008-9373-8d8e4bb61cb7",
+    "_rev": 1709828265885,
+    "id": 17
+  },
+  {
+    "enabled": false,
+    "installDate": 1706714910315,
+    "name": "AccessContrib - 5. Listes",
+    "sections": [
+      {
+        "code": "ul {\n    border: 4px dotted #0a3d6f;\n}\nul::after {\n    content: \"ul\";\n}\nol {\n    border: 4px dotted #0a3d6f;\n}\nol::after {\n    content: \"ol\";\n}\n\nli {\n    border: 2px dashed #100295;\n}\nli::after {\n    content: \"li\";\n}"
+      }
+    ],
+    "updateDate": 1706717207064,
+    "_id": "f18f6e04-3b43-4a06-ae6e-233f3383618a",
+    "_rev": 1709828278088,
+    "id": 18
+  },
+  {
+    "enabled": false,
+    "installDate": 1706714850935,
+    "name": "AccessContrib - 6. Tableaux",
+    "sections": [
+      {
+        "code": "table {\n     outline: 4px dotted #c40000;\n}\n\ntable::after {\n    content: \"table\";\n}\n\nth {\n    outline: 4px dotted #603e00;\n}\nth::after {\n    content: \"th\";\n}\n\ncaption {\n    outline: 4px dotted #006017;\n}\ncaption::after {\n    content: \"caption\";\n}"
+      }
+    ],
+    "updateDate": 1706717252645,
+    "_id": "edee192a-fd08-458e-a221-d6144a6d6ea2",
+    "_rev": 1709828287148,
+    "id": 16
+  },
+  {
+    "enabled": false,
+    "installDate": 1706714938260,
+    "name": "AccessContrib - 7. Liens",
+    "sections": [
+      {
+        "code": "a[href] {\n    outline: 2px dotted #12403c;\n}\na[href]::after {\n    content: \"a[href]\";\n}\n"
+      }
+    ],
+    "updateDate": 1706717268987,
+    "_id": "e196eba9-ecad-45cd-9ffb-edcb6872911a",
+    "_rev": 1709828303724,
+    "id": 19
+  }
+]
