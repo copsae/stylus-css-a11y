@@ -6,7 +6,10 @@
 
 1. Installer l’extension Stylus : [Firefox](https://addons.mozilla.org/fr/firefox/addon/styl-us/), [Chrome](https://chromewebstore.google.com/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne) ;
 1. Installer les styles de test dans Stylus :
-    1. Récupérer le fichier json souhaité ;
+    1. Récupérer le fichier json souhaité :
+        1. Cliquer sur le fichier dans GitHub. Il s’ouvre dans une page où on voit tout le code ;
+        1. Pour le télécharger, cliquer sur le bouton « Raw » en haut à droite. Le fichier s’ouvre dans le navigateur ;
+        1. Faire <kbd>CTRL + S</kbd> pour l’enregistrer dans votre ordinateur.
     1. Cliquer sur l’icône de l’extension Stylus dans le navigateur puis sur le bouton « Gestion » ;
     1. Dans le panneau à gauche, partie « Sauvegarde », cliquer sur « Importer » et aller chercher le fichier téléchargé.
 1. Pour le fichier `stylus-accessContrib.json` :
